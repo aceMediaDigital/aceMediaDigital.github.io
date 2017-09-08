@@ -6,6 +6,7 @@ jQuery(document).ready(function() {
         var a = {
                 zoom: 15,
                 scrollwheel: false,
+                mapTypeControl: false,
                 center: new google.maps.LatLng(-33.827537, 18.494799),
                 styles: [{
                     "featureType": "landscape",
